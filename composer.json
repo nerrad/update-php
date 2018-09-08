@@ -1,0 +1,35 @@
+{
+  "name": "nerrad/update-php",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "description": "A WordPress plugin providing Gutenberg Blocks for the Update PHP page on WordPress.org",
+  "homepage": "https://github.com/nerrad/update-php",
+  "keywords": [
+    "gutenberg",
+    "wordpress",
+    "update-php",
+    "php",
+    "react",
+    "javascript"
+  ],
+  "support": {
+    "issues": "https://github.com/nerrad/update-php/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "WordPressUpdatePHP\\": "src/"
+    }
+  },
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3",
+    "squizlabs/php_codesniffer": "^3.1",
+    "wimg/php-compatibility": "^8",
+    "wp-coding-standards/wpcs": "^0.14.0"
+  },
+  "require": {
+    "composer/installers": "~1.0"
+  },
+  "scripts": {
+    "lint": "phpcs"
+  }
+}
