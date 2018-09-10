@@ -10,6 +10,7 @@ const externals = {
 	'@wordpress/blocks': 'wp.blocks',
 	'@wordpress/editor': 'wp.editor',
 	'@wordpress/compose': 'wp.compose',
+	'@wordpress/i18n': 'wp.i18n',
 	react: 'React',
 	'react-dom': 'ReactDOM',
 	lodash: 'lodash',

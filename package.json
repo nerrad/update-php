@@ -1,13 +1,12 @@
-
 {
-  "name": "nerrad/update-php",
+  "name": "@nerrad/update-php",
   "description": "A WordPress plugin adding Gutenberg blocks for use on the WordPress.org \"Update PHP\" page.",
   "version": "0.1.0",
   "main": "webpack.dev.js",
   "author": "Darren Ethier <darren@roughsmootheng.in> (https://darrenethier.com)",
   "license": "GPL-2.0",
   "repository": "git+https://github.com/nerrad/update-php.git",
-  "browserslist":[
+  "browserslist": [
     "extends @wordpress/browserslist-config"
   ],
   "engines": {
@@ -35,12 +34,17 @@
     "test-unit:watch": "npm run test-unit -- --watch"
   },
   "devDependencies": {
-    "@babel/core": "7.0.0-beta.52",
-    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.54",
-    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.54",
-    "@babel/plugin-transform-react-jsx": "^7.0.0-beta.54",
-    "@babel/polyfill": "^7.0.0-beta.54",
-    "@babel/preset-react": "^7.0.0-beta.54",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime-corejs2": "^7.0.0",
+    "@wordpress/babel-plugin-import-jsx-pragma": "^1.0.0",
+    "@wordpress/babel-plugin-makepot": "^2.0.0",
+    "@wordpress/babel-preset-default": "^2.0.1",
+    "@wordpress/jest-preset-default": "^2.0.0",
     "autoprefixer": "^8.6.5",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^8.2.6",
@@ -49,7 +53,6 @@
     "check-node-version": "^3.2.0",
     "clean-webpack-plugin": "^0.1.18",
     "concurrently": "^3.6.0",
-    "core-js": "2.5.7",
     "cross-env": "^5.2.0",
     "css-loader": "^0.28.11",
     "deep-freeze": "0.0.1",
@@ -62,6 +65,7 @@
     "license-checker": "^20.1.0",
     "mini-css-extract-plugin": "^0.4.1",
     "postcss-loader": "^2.1.6",
+    "react": "^16.5.0",
     "react-test-renderer": "^16.4.1",
     "recast": "^0.14.7",
     "webpack": "^4.16.1",

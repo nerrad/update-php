@@ -9,7 +9,13 @@
  * Domain Path:     /languages
  * Version:         0.1.0
  *
- * @package        update-php
+ * @package        WP\update_php
  */
 
+use WP\update_php\Bootstrap;
 
+// define version and this file.
+define( 'WP_UPDATE_PHP_VERSION', '0.1.0' );
+define( 'WP_UPDATE_PLUGIN_FILE', __FILE__ );
+require 'vendor/autoload.php';
+Bootstrap::instance( WP_UPDATE_PHP_VERSION, WP_UPDATE_PLUGIN_FILE );

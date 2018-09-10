@@ -16,9 +16,7 @@
     "issues": "https://github.com/nerrad/update-php/issues"
   },
   "autoload": {
-    "psr-4": {
-      "WordPressUpdatePHP\\": "src/"
-    }
+    "classmap": [ "src/" ]
   },
   "require-dev": {
     "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3",
@@ -27,7 +25,8 @@
     "wp-coding-standards/wpcs": "^0.14.0"
   },
   "require": {
-    "composer/installers": "~1.0"
+    "composer/installers": "~1.0",
+    "mustache/mustache": "^2.12"
   },
   "scripts": {
     "lint": "phpcs"
