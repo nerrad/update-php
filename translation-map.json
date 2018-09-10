@@ -1,0 +1,16 @@
+{
+  "update-php-blocks": [
+    "PHP Version Detection Content",
+    "Outdated PHP Version Content",
+    "Up-to-date PHP Version Content",
+    "When the detected php version is less than the \"Minimum Up To Date Version\", this is the content that gets shown.",
+    "When the detected php version is equal to or greater than the \"Minimum Up To Date Version\", this is the content that gets shown.",
+    "Title",
+    "Body",
+    "Emphasis",
+    "Preview Outdated Content",
+    "Use this to switch between previewing the outdated or up-to-date php version content",
+    "Minimum Up To Date Version:",
+    "The minimum version that will trigger the up-to-date content to show.  Anything below this version will result in out-dated version content showing"
+  ]
+}
